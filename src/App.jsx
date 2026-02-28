@@ -1,10 +1,8 @@
 import React,{useContext} from "react";
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
-
 import AuthProvider,{AuthContext} from "./context/AuthContext";
 import ThemeProvider,{ThemeContext} from "./context/ThemeContext";
 import SubscriptionProvider from "./context/SubscriptionContext";
-
 import Login from "./pages/Login";
 import Signup from "./Pages/Signup";
 import PlansPage from "./pages/PlansPage";
